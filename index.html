@@ -1,0 +1,160 @@
+<!doctype HTML>
+<html>
+    <head>
+        <style>
+
+
+            body, html {
+                padding: 0px;
+                margin: 0px;
+                border: 0px;
+                height: 100%;
+                width: 100%;
+                background-color:  white;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                font-size: 22px;
+                overflow: auto;
+            }
+
+            .content-slice {
+                width: 100%;
+                padding: 10px;
+                box-sizing: border-box;
+            }
+            .container-main {
+                background-color:  white;
+                height: 1000px;
+                width: 700px;
+                position: relative;
+            }
+
+            .container-card {
+                height: 315px;
+                width: 650px;
+                background-color: #ccc;
+                border: 5px solid #303030;
+            }
+
+            .container-inner {
+                height: 315px;
+                width: 650px;
+                white-space: nowrap;
+            }
+
+            .container-card-cell {
+                height: 315px;
+                width: 315px;
+                display: inline-block;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                white-space: nowrap;
+            }
+
+            .container-portrait {
+                height: 100%;
+                width: 100%;
+                position: relative;
+            }
+
+            .image-portrait {
+                border: 1px solid rgb(46, 46, 46);
+                position: absolute;
+                top: 25%;
+                left: 25%;
+            }
+
+            .container-description {
+                height: 300px;
+                width: 300px;
+            }
+
+            .container-description-row {
+                height: 50px;
+                width: 100%;
+            }
+
+            .container-description-tag {
+                height: 50px;
+                width: 75px;
+                display: inline-block;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                white-space: nowrap;
+            }
+
+            .container-description-entry {
+                height: 50px;
+                width: 150px;
+                display: inline-block;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                white-space: nowrap;
+            }
+
+            .container-description-blob {
+                width: 100%;
+                white-space:initial;
+                overflow:initial;
+            }
+
+            .description-experimental {
+                color: rgb(101,101,101);
+            }
+
+            .description-blurb {
+                padding-left: 75px;
+            }
+
+
+        </style>
+    </head>
+    <body>
+        <div class="container-main">
+            <div class="content-slice">
+                <div class="container-card">
+                    <div class="container-inner">
+                        <div class="container-card-cell">
+                            <div class="container-portrait">
+                                <img class="image-portrait" width=175 height="175" src="./images/02_03_2024_github.png" />
+                            </div>
+                        </div>
+                        <div class="container-card-cell">
+                            <div class="container-description">
+                                <div class="content-slice">
+                                    <div class="container-description-row">
+                                        <div class="container-description-tag">
+                                            Name:
+                                        </div>
+                                        <div class="container-description-entry">
+                                            John Orland
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="content-slice">
+                                    <div class="container-description-blob">
+                                        This area is under construction...
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="content-slice description-experimental">
+                Experimental Projects:
+            </div>
+            <div class="content-slice description-experimental">
+                #1: A Trivia Experience:
+            </div>
+            <div class="content-slice description-experimental description-blurb">
+                - I used some HTML and JavaScript to create a user-interface for trivia, and
+                to research pertinent data structures and design patterns.
+            </div>
+            <div class="content-slice description-experimental description-blurb">
+                <span>URL:</span><a href="./experiments/trivia/index.html">
+                    https://johnorland2.github.io/experiments/trivia/index.html
+                </a>
+            </div>
+        </div>
+    </body>
+</html>
