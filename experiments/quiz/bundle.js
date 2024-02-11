@@ -12,7 +12,7 @@
     This script is like output from Webpack (optionally see "https://en.wikipedia.org/wiki/Webpack").
     Some original variable names were replaced with alternatives.
     This technique is described generally at the following page: "https://en.wikipedia.org/wiki/Obfuscation_(software)".
-    In academics, this technique seemingly is useful to an extent for offsetting plagarism
+    In academics, this technique seemingly is useful to an extent for offsetting plagiarism
     and offsetting interruption to the problem-solving challenge for others, though some reverse engineering
     of obfuscated code seemingly is possible.  Yet, the technique might create results
     that are less stable and maintainable than the original code.  Complaints and suggestions
